@@ -10,7 +10,7 @@ class Solution:
                 return False
         else:
             if string_x[0] == string_x[-1]:
-                return self.isPalindrome(str(x)[1:-1])
+                return self.isPalindrome(string_x[1:-1])
             return False
 
 
